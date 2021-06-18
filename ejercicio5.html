@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+
+    <style media="screen" type="text/css">
+
+    .container{
+        display: inline-block;
+    }
+
+    .oferta{
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .producto{
+        position: relative;
+        z-index: -1;
+        
+    }
+
+    .mover{
+        right: 1px;
+    }
+
+    .centrar{
+        left: 250px;
+    }
+    
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <img class="oferta position-relative centrar" src="assets/img/ejercicio-5_ribbon.png">
+        
+        <img class="producto position-relative mover" src="assets/img/ejercicio-5_item.jpg">
+        
+    </div>
+    
+</body>
+</html>
